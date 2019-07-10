@@ -1,0 +1,78 @@
+{
+    {
+        "race":"2002 Regatta",
+        "teams": [
+        {
+            "team": "Dragon Warriors",
+            "time": "2:24.46",
+            "place": 2,
+            "size":2
+        },
+        {
+            "team": "Dieselfish",
+            "time": "2:20.78",
+            "place": 1,
+            "size": 1
+        },
+        {
+            "team": "Ripple Effect",
+            "time": "2:28.27",
+            "place": 3,
+            "size": 1
+        },
+        {
+            "team": "Dragon Max",
+            "time": "2:28.27",
+            "place": 4,
+            "size": 1
+        },
+        {
+            "team": "Lightwave",
+            "time": "2:47.84",
+            "place": 5,
+            "size": 1
+        }
+        ]
+    },
+    {
+        "year":"2002 Norcal",
+        "teams": [
+            {
+                "team": "Dragon Warriors",
+                "time": "2:19.51",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "Dieselfish",
+                "time": "2:29.78",
+                "place": 1,
+                "size": 2
+            },
+            {
+                "team": "Ripple Effect",
+                "time": "2:28.27",
+                "place": 3,
+                "size": 1
+            },
+            {
+                "team": "Dragon Max",
+                "time": "2:28.27",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "Lightwave",
+                "time": "2:47.84",
+                "place": 5,
+                "size": 1
+            }
+            {
+                "team": "Bay Area Dragons",
+                "time": "2:18.28",
+                "place": 1,
+                "size": 3
+            }
+        ]
+    }
+}
