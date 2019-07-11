@@ -1,0 +1,66 @@
+[
+    {
+        "year": "2002 Norcal",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:36.91",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:36.96",
+                "place": 2,
+                "size": 2
+            },
+            {
+                "team": "CYC",
+                "time": "3:00.93",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "Washington",
+                "time": "2:56.21",
+                "place": 3,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "year": "2003 Youth Race",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:10.07",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:06.40",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "CYC",
+                "time": "2:21.94",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "Washington",
+                "time": "2:25.50",
+                "place": 3,
+                "size": 3
+            },
+            {
+                "team": "GCD",
+                "time": "2:36.65",
+                "place": 5,
+                "size": 1
+            }
+        ]
+    }
+]
