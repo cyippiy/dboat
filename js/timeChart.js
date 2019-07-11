@@ -1,6 +1,6 @@
-TimeChart = function(_parentElement){
+TimeChart = function(_parentElement, data){
     this.parentElement = _parentElement;
-
+    this.data = data;
     this.initVis();
 };
 
@@ -88,7 +88,7 @@ TimeChart.prototype.update = function () {
         .duration(100);
 
     // JOIN new data with old elements.
-    let circles = vis.g.selectAll("circle").data(formattedData[vis.time], function (d) {
+    let circles = vis.g.selectAll("circle").data(vis.data[vis.time], function (d) {
         return d.country;
     });
 

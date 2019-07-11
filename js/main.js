@@ -19,13 +19,10 @@ d3.json("data/data.json").then(function (data) {
     console.log(formattedData);
     // Run the code every 0.1 second
     d3.interval(function () {
-        // At the end of our data, loop back
-        // time = (time < 214) ? time + 1 : 0
-        // update(formattedData[time]);
         update();
     }, 100);
 
-    timeChart = new TimeChart("#chart-area");
+    timeChart = new TimeChart("#chart-area",formattedData);
 })
 
 function update(){
