@@ -51,7 +51,7 @@ d3.json("data/adults.json").then((data) => {
     // })
     d3.interval(function () {
         update();
-    }, 1000);
+    }, 1500);
 
     adultChart = new TimeChart("#chart-area", adultData);
     // update();

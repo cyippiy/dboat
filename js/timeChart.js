@@ -20,7 +20,7 @@ TimeChart.prototype.initVis = function() {
     vis.g = vis.svg.append("g")
         .attr("transform", `translate(${vis.margin.left},${vis.margin.top})`);
 
-    vis.t = function() { return d3.transition().duration(1000); }
+    vis.t = function() { return d3.transition().duration(100); }
 
     // Scales
     vis.x = d3.scaleLinear()
