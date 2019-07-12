@@ -1,5 +1,8 @@
 
-let timeChart,formattedData,adultData,rawData;
+let timeChart,formattedData,
+    adultData,rawData,
+    adultChart;
+
 let time = 0;
 
 d3.json("data/data.json").then(function (data) {
@@ -18,14 +21,14 @@ d3.json("data/data.json").then(function (data) {
     });
     // console.log(formattedData);
     // Run the code every 0.1 second
-    d3.interval(function () {
-        update();
-    }, 100);
+    // d3.interval(function () {
+    //     update();
+    // }, 100);
 
-    timeChart = new TimeChart("#chart-area",formattedData);
+    // timeChart = new TimeChart("#chart-area",formattedData);
 });
 let totalData;
-d3.json("data/adults.json").then((data) => {
+d3.json("data/youth.json").then((data) => {
     totalData = data;
     let time;
     adultData = data.map((race) => { 
@@ -37,11 +40,16 @@ d3.json("data/adults.json").then((data) => {
             });
         return race;
     })
-    console.log(adultData);
+    d3.interval(function () {
+        update();
+    }, 1000);
+
+    adultChart = new TimeChart("#chart-area", adultData);
+    // update();
 });
 
 
 function update(){
     // timeChart.wrangleData()
-    timeChart.update();
+    adultChart.update();
 }

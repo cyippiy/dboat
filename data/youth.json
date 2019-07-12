@@ -1,6 +1,6 @@
 [
     {
-        "year": "2002 Norcal",
+        "race": "2002 Norcal",
         "teams": [
             {
                 "team": "Lowell",
@@ -29,7 +29,7 @@
         ]
     },
     {
-        "year": "2003 Youth Race",
+        "race": "2003 Youth Race",
         "teams": [
             {
                 "team": "Lowell",
