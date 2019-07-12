@@ -29,11 +29,40 @@ TimeChart.prototype.initVis = function() {
         .domain([0, 10]); // remove later
     vis.y = d3.scaleLinear()
         .range([vis.height,0])
-        .domain([100, 240]); // remove later
+        .domain([110, 180]); // remove later
     vis.area = d3.scaleLinear()
         .range([0 * Math.PI, 50 * Math.PI])
         .domain([0, 4]); // remove later
-    vis.teamColor = d3.scaleOrdinal(d3.schemePastel1); // remove later
+    vis.colors = {
+        "Dragon Warriors":"#FF0011",
+        "Bay Area Dragons": "#3187F7",
+        "Dieselfish": "#00C635",
+        "Lightwave": "#71BEEB",
+        "Dragon Max": "#FA8484",
+        "Ripple Effect": "#FF9100",
+        "Alameda Dragon Flyers": "#BC2020"
+    };
+
+    // Tooltip
+    vis.tip = d3.tip().attr('class', 'd3-tip')
+        .html(function (d) {
+            let strTime= "";
+            strTime += Math.floor(d.time/60);
+            strTime += ":"
+            let seconds = d3.format(".2f")(d.time % 60);
+            if (Math.floor(seconds) < 10){
+                strTime+="0";
+            }
+            strTime += seconds;
+            var text = "<strong>Team:</strong> <span style='color:red'>" + d.team + "</span><br>";
+            text += "<strong>Time:</strong> <span style='color:red'>" + strTime + "</span><br>";
+            // text += "<strong>Time:</strong> <span style='color:red'>" + d3.format(".2f")(d.time) + "</span><br>";
+            text += "<strong>Placement:</strong> <span style='color:red'>" + (d.place) + "</span><br>";
+            text += "<strong>Crew Size</strong> <span style='color:red'>" + (d.size) + "</span><br>";
+            return text;
+        });
+    vis.g.call(vis.tip);
+
 
     // Labels
     vis.xLabel = vis.g.append("text")
@@ -109,7 +138,10 @@ TimeChart.prototype.update = function () {
     circles.enter()
         .append("circle")
         .attr("class", "enter")
-        .attr("fill", function (d) { return vis.teamColor(d.team); })
+        .attr("fill", function (d) { return vis.colors[d.team]; })
+        .on("mouseover", vis.tip.show)
+        .on("mouseout", vis.tip.hide)
+        // .attr("fill", function (d) { return vis.teamColor(d.team); })
         .merge(circles)
         .transition(vis.t)
         .attr("cy", function (d) { return vis.y(d.time); })
