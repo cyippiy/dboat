@@ -51,7 +51,7 @@ TimeChart.prototype.initVis = function() {
         .text("Time (seconds)")
     vis.timeLabel = vis.g.append("text")
         .attr("y", vis.height - 10)
-        .attr("x", vis.width - 40)
+        .attr("x", vis.width - 50)
         .attr("font-size", "20px")
         .attr("opacity", "0.4")
         .attr("text-anchor", "middle")
@@ -92,11 +92,9 @@ TimeChart.prototype.update = function () {
     //     return d.teams;
     // });
     // console.log(circles);
-    console.log(`this is time: ${vis.time}`);
+    // console.log(`this is time: ${vis.time}`);
     // console.log(vis.data);
-    let circles = vis.g.selectAll("circle").data(vis.data[vis.time].teams, function (d){
-        return d.teams;
-    });
+    let circles = vis.g.selectAll("circle").data(vis.data[vis.time].teams);
     // let circles = vis.g.selectAll("circle").data(vis.data, function (d) {
     //    console.log(d)
     //    return d.teams
@@ -115,8 +113,8 @@ TimeChart.prototype.update = function () {
         .merge(circles)
         .transition(vis.t)
         .attr("cy", function (d) { return vis.y(d.time); })
-        .attr("cx", function (d) { return vis.x(d.place) })
-        .attr("r", function (d) { return Math.sqrt(vis.area(d.size) / Math.PI) });
+        .attr("cx", function (d) { return vis.x(d.place); })
+        .attr("r", function (d) { return Math.sqrt(vis.area(d.size)*20 / Math.PI) });
 
     // Update the time label
     vis.timeLabel.text(`${vis.data[vis.time].race}`);

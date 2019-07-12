@@ -28,7 +28,7 @@ d3.json("data/data.json").then(function (data) {
     // timeChart = new TimeChart("#chart-area",formattedData);
 });
 let totalData;
-d3.json("data/youth.json").then((data) => {
+d3.json("data/adults.json").then((data) => {
     totalData = data;
     let time;
     adultData = data.map((race) => { 
@@ -40,6 +40,15 @@ d3.json("data/youth.json").then((data) => {
             });
         return race;
     })
+    // adultData = data.map((race) => { 
+    //     race.teams.map(
+    //         team => {
+    //                 time = team.time.split(":");
+    //                 team.time = +time[0] * 60 + parseFloat(time[1]);
+    //                 return team;
+    //         });
+    //     return race;
+    // })
     d3.interval(function () {
         update();
     }, 1000);
