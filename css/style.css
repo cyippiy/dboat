@@ -12,3 +12,10 @@
 	height: 60px;
 	padding: 5px 0px;
 }
+
+.row {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
