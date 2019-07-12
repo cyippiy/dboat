@@ -7,6 +7,10 @@
     <title>History of Dragonboat in the Bay Area</title>
     <!-- Bootstrap -->
     <link rel="stylesheet" href="css/bootstrap.min.css">
+    <!-- jQuery UI CSS -->
+    <link rel="stylesheet" href="css/jquery-ui.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.structure.min.css">
+    <link rel="stylesheet" href="css/jquery-ui.theme.min.css">
     <!-- Custom styling -->
     <link rel="stylesheet" href="css/style.css">
 </head>
@@ -20,22 +24,48 @@
 
     <!-- Bootstrap grid setup -->
     <div id="charts" class="container">
-        <div class="row">
+        <div class="row-time">
             <h1>Adults</h1>
             <div id="chart-area-adult"></div>
         </div>
-        <div class="row">
+        <div class="row-time">
             <h1>Youth</h1>
             <div id="chart-area-youth"></div>
+        </div>
+
+        <div id="selections" class="row">
+            <h1>DW Genders</h1>
+            <div class="col-md-4">
+                <div id="slider-div">
+                    <label>Date: <span id="dateLabel1">12/05/2013</span> - <span id="dateLabel2">31/10/2017</span></label>
+                    <div id="date-slider"></div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <select id="var-select" class="form-control">
+                    <option selected value="price_usd">Price in dollars</option>
+                    <option value="market_cap">Market capitalization</option>
+                    <option value="24h_vol">24 hour trading volume</option>
+                </select>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4" id="chart-area1"></div>
+            <div class="col-md-4" id="chart-area2"></div>
+            <div class="col-md-4" id="chart-area3"></div>
+            <div class="col-md-4" id="chart-area4"></div>
+            <div class="col-md-4" id="chart-area5"></div>
         </div>
     </div>
 
     <!-- External JS libraries -->
     <script src="js/jquery.min.js"></script>
+    <script src="js/jquery-ui.min.js"></script>
     <script src="js/bootstrap.min.js"></script>
     <script src="js/d3.min.js"></script>
     <!-- Custom JS -->
     <script src="js/timeChart.js"></script>
+    <script src="js/genderChart.js"></script>
     <script src="js/main.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/d3-tip/0.7.1/d3-tip.min.js"></script>
 
