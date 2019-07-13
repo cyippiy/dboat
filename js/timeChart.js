@@ -111,10 +111,6 @@ TimeChart.prototype.initVis = function() {
     vis.update();
 };
 
-TimeChart.prototype.wrangleData = function(){
-    let vis = this;
-};
-
 TimeChart.prototype.update = function () {
     let vis = this;
     vis.t = d3.transition()

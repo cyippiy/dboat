@@ -5,21 +5,6 @@ let timeChart,formattedData,
     youthChart;
 
 let time = 0;
-
-d3.json("data/data.json").then(function (data) {
-    rawData = data;
-    // Clean data
-    formattedData = data.map(function (year) {
-        return year["countries"].filter(function (country) {
-            var dataExists = (country.income && country.life_exp);
-            return dataExists
-        }).map(function (country) {
-            country.income = +country.income;
-            country.life_exp = +country.life_exp;
-            return country;
-        })
-    });
-});
 let totalData;
 d3.json("data/adults.json").then((data) => {
     totalData = data;
@@ -56,7 +41,6 @@ d3.json("data/youth.json").then( (data) => {
 
 
 function update(){
-    // timeChart.wrangleData()
     adultChart.update();
     youthChart.update();
 }
