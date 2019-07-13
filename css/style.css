@@ -9,7 +9,7 @@
 }
 
 .navbar-brand {
-	height: 60px;
+	/* height: 60px; */
 	padding: 5px 0px;
 }
 
@@ -24,7 +24,26 @@
 	text-align: center;
 }
 
-#intro-text{
+#intro-gif{
+	background-image: url('../img/women.gif');
+	background-size: 100%;
+	background-repeat: no-repeat;
+	/* background-attachment: fixed; */
+	background-position-y: center;
 	display:flex;
+	width: 100%;
+	height: 250px;
+	/* border-radius: 1px; */
+	/* background: 50%; */
+}
+#intro-text { 
 	text-align: center;
+	color:black;
+	font-size: 20px;
+	margin: 50px 0;
+}
+
+h1 {
+	color: darkgray;
+	font-family: sans-serif;
 }
