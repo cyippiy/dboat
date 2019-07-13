@@ -69,7 +69,19 @@ let circles = vis.g.selectAll("circle").data(vis.data[vis.time].teams);
 ```
 
 
-
+### Resizing Dots
+```
+    circles.enter()
+        .append("circle")
+        .attr("class", "enter")
+        .attr("fill", function (d) { return vis.colors[d.team]; })
+        .on("mouseover", vis.tip.show)
+        .on("mouseout", vis.tip.hide)
+        .merge(circles)
+        .transition(vis.t)
+        .attr("r", function (d) { return Math.sqrt(vis.area(d.size)*20 / Math.PI) });
+```
+The dots size is represented by the crew count of each team.
 
 ## Future Features
 
