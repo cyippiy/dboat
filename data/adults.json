@@ -215,5 +215,58 @@
                 "size": 1
             }
         ]
+    },
+    {
+        "race":"2004 Norcal",
+        "teams": [
+            {
+                "team": "Dragon Warriors",
+                "time": "2:08.12",
+                "place": 1,
+                "size": 4
+            },
+            {
+                "team": "Dieselfish",
+                "time": "2:10.88",
+                "place": 3,
+                "size": 1
+            },
+            {
+                "team": "Ripple Effect",
+                "time": "2:12.76",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "Dragon Max",
+                "time": "2:19.29",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "Lightwave",
+                "time": "2:17.59",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "Bay Area Dragons",
+                "time": "2:09.35",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team":  "SFL Dragons",
+                "time": "2:12.55",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team":  "Alameda Dragon Flyers",
+                "time": "2:37.69",
+                "place": 8,
+                "size": 1
+            }
+        ]
     }
 ]

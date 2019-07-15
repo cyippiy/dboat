@@ -163,5 +163,117 @@
                 "size": 1
             }
         ]
+    },
+    {
+        "race": "2004 Youth Race",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:20.69",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:21.55",
+                "place": 2,
+                "size": 2
+            },
+            {
+                "team": "CYC",
+                "time": "2:33.49",
+                "place": 4,
+                "size": 2
+            },
+            {
+                "team": "Washington",
+                "time": "2:31.63",
+                "place": 3,
+                "size": 3
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "3:10.07",
+                "place": 9,
+                "size": 1
+            },
+            {
+                "team": "San Mateo High",
+                "time": "2:52.62",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "GCD",
+                "time": "2:57.59",
+                "place": 8,
+                "size": 2
+            },
+            {
+                "team": "MHS Dragon Riders",
+                "time": "2:55.49",
+                "place": 7,
+                "size": 2
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "2:54.20",
+                "place": 6,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "race": "2004 Norcal",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:14.24",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:15.10",
+                "place": 2,
+                "size": 2
+            },
+            {
+                "team": "CYC",
+                "time": "2:18.62",
+                "place": 3,
+                "size": 2
+            },
+            {
+                "team": "Washington",
+                "time": "2:19.19",
+                "place": 4,
+                "size": 3
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "2:24.35",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "Mills High",
+                "time": "2:33.01",
+                "place": 7,
+                "size": 2
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "2:40.69",
+                "place": 8,
+                "size": 1
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:26.13",
+                "place": 6,
+                "size": 1
+            }
+        ]
     }
 ]
