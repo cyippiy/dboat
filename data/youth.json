@@ -17,13 +17,43 @@
             {
                 "team": "CYC",
                 "time": "3:00.93",
-                "place": 4,
+                "place": 8,
                 "size": 1
             },
             {
                 "team": "Washington",
                 "time": "2:56.21",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "BAD Youth",
+                "time": "2:47.61",
                 "place": 3,
+                "size": 1
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "2:46.98",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "San Mateo High",
+                "time": "2:46.98",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "Mills High",
+                "time": "2:58.74",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "3:02.80",
+                "place": 9,
                 "size": 1
             }
         ]
@@ -46,19 +76,90 @@
             {
                 "team": "CYC",
                 "time": "2:21.94",
-                "place": 4,
+                "place": 5,
                 "size": 1
             },
             {
                 "team": "Washington",
                 "time": "2:25.50",
-                "place": 3,
+                "place": 4,
                 "size": 3
             },
             {
                 "team": "GCD",
                 "time": "2:36.65",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "BAD Youth",
+                "time": "2:13.12",
+                "place": 3,
+                "size": 1
+            },
+            {
+                "team": "MHS Dragon Riders",
+                "time": "2:46.98",
+                "place": 8,
+                "size": 1
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "2:29.40",
+                "place": 6,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "race": "2003 Norcal",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:39.43",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:39.03",
+                "place": 1,
+                "size": 2
+            },
+            {
+                "team": "CYC",
+                "time": "3:11.62",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "Washington",
+                "time": "2:41.97",
+                "place": 3,
+                "size": 1
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "2:53.35",
                 "place": 5,
+                "size": 1
+            },
+            {
+                "team": "San Mateo High",
+                "time": "3:19.75",
+                "place": 8,
+                "size": 1
+            },
+            {
+                "team": "Mills High",
+                "time": "3:11.86",
+                "place": 7,
+                "size": 2
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "3:00.59",
+                "place": 6,
                 "size": 1
             }
         ]

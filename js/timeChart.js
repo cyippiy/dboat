@@ -28,7 +28,7 @@ TimeChart.prototype.initVis = function() {
         .domain([0, 10]); 
     vis.y = d3.scaleLinear()
         .range([vis.height,0])
-        .domain([110, 180]);
+        .domain([110, 210]);
     vis.area = d3.scaleLinear()
         .range([0 * Math.PI, 50 * Math.PI])
         .domain([0, 4]);
@@ -40,14 +40,20 @@ TimeChart.prototype.initVis = function() {
         "Dragon Max": "#FA8484",
         "Ripple Effect": "#FF9100",
         "Alameda Dragon Flyers": "#BC2020",
+        "SFL Dragons": "black",
         "Northwind": "#003366",
         "East Harbor": "#FF007F",
         "Lowell": "#FF0000",
         "Lincoln": "#ECC501",
         "CYC": "#1C278D",
-        "Washington": "#CA1F1F",
-        "GCD": "#4C0998"
-
+        "Washington": "#FF6666",
+        "GCD": "#330066",
+        "BAD Youth": "#3187F7",
+        "San Mateo High": "#FF8000",
+        "Crystal Springs Upland": "#99FFFF",
+        "Mills High": "#FF3333",
+        "DF Youth": "#00C635",
+        "Lick Wilmerding": "#E1E900",
     };
 
     // Tooltip
