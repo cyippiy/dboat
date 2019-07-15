@@ -275,5 +275,111 @@
                 "size": 1
             }
         ]
+    },
+    {
+        "race": "2005 Youth",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:24.77",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:27.36",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "CYC",
+                "time": "2:33.77",
+                "place": 3,
+                "size": 3
+            },
+            {
+                "team": "Washington",
+                "time": "2:44.62",
+                "place": 5,
+                "size": 2
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "2:55.50",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "GCD",
+                "time": "2:56.39",
+                "place": 8,
+                "size": 1
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "2:40.80",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:47.62",
+                "place": 4,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "race": "2005 Norcal",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:20.45",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:18.94",
+                "place": 1,
+                "size": 2
+            },
+            {
+                "team": "CYC",
+                "time": "2:28.19",
+                "place": 3,
+                "size": 3
+            },
+            {
+                "team": "Washington",
+                "time": "2:29.00",
+                "place": 4,
+                "size": 2
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "2:55.50",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "GCD",
+                "time": "2:54.70",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "2:29.00",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:32.85",
+                "place": 5,
+                "size": 1
+            }
+        ]
     }
 ]

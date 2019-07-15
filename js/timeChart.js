@@ -40,7 +40,7 @@ TimeChart.prototype.initVis = function() {
         "Dragon Max": "#FA8484",
         "Ripple Effect": "#FF9100",
         "Alameda Dragon Flyers": "#BC2020",
-        "SFL Dragons": "black",
+        "SFL Dragons": "#000000",
         "Northwind": "#003366",
         "East Harbor": "#FF007F",
         "Lowell": "#FF0000",

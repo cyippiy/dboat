@@ -209,7 +209,7 @@
                 "size": 2
             },
             {
-                "team":  "SFL Dragons",
+                "team": "SFL Dragons",
                 "time": "2:25.53",
                 "place": 6,
                 "size": 1
@@ -256,7 +256,7 @@
                 "size": 3
             },
             {
-                "team":  "SFL Dragons",
+                "team": "SFL Dragons",
                 "time": "2:12.55",
                 "place": 6,
                 "size": 1
@@ -264,6 +264,112 @@
             {
                 "team":  "Alameda Dragon Flyers",
                 "time": "2:37.69",
+                "place": 8,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "race":"2005 Regatta",
+        "teams": [
+            {
+                "team": "Dragon Warriors",
+                "time": "2:17.41",
+                "place": 4,
+                "size": 4
+            },
+            {
+                "team": "Dieselfish",
+                "time": "2:17.04",
+                "place": 1,
+                "size": 2
+            },
+            {
+                "team": "Ripple Effect",
+                "time": "2:18.20",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "Dragon Max",
+                "time": "2:19.13",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "Lightwave",
+                "time": "2:28.07",
+                "place": 8,
+                "size": 1
+            },
+            {
+                "team": "Bay Area Dragons",
+                "time": "2:18.08",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "SFL Dragons",
+                "time": "2:18.32",
+                "place": 3,
+                "size": 1
+            },
+            {
+                "team": "Alameda Dragon Flyers",
+                "time": "2:28.03",
+                "place": 7,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "race":"2005 Norcal",
+        "teams": [
+            {
+                "team": "Dragon Warriors",
+                "time": "2:07.57",
+                "place": 1,
+                "size": 4
+            },
+            {
+                "team": "Dieselfish",
+                "time": "2:15.50",
+                "place": 3,
+                "size": 2
+            },
+            {
+                "team": "Ripple Effect",
+                "time": "2:19.73",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "Dragon Max",
+                "time": "2:19.74",
+                "place": 4,
+                "size": 1
+            },
+            {
+                "team": "Lightwave",
+                "time": "2:35.16",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "Bay Area Dragons",
+                "time": "2:08.76",
+                "place": 2,
+                "size": 4
+            },
+            {
+                "team": "SFL Dragons",
+                "time": "2:17.17",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "Alameda Dragon Flyers",
+                "time": "2:45.14",
                 "place": 8,
                 "size": 1
             }
