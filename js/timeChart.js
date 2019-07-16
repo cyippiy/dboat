@@ -54,7 +54,9 @@ TimeChart.prototype.initVis = function() {
         "Mills High": "#FF3333",
         "DF Youth": "#00C635",
         "Lick Wilmerding": "#E1E900",
-        "Mountain View": "#666600"
+        "Mountain View": "#666600",
+        "MHS Dragon Riders": "#FFCC99",
+        "Thurgood Marshall": "#994C00"
     };
 
     // Tooltip
