@@ -540,5 +540,99 @@
                 "size": 1
             }
         ]
+    },
+    {
+        "race": "2007 Norcal",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:17.57",
+                "place": 3,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:14.71",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "CYC",
+                "time": "2:14.35",
+                "place": 1,
+                "size": 2
+            },
+            {
+                "team": "Washington",
+                "time": "2:23.16",
+                "place": 4,
+                "size": 3
+            },
+            {
+                "team": "GCD",
+                "time": "2:22.39",
+                "place": 5,
+                "size": 3
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:24.80",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "MHS Dragon Riders",
+                "time": "2:39.81",
+                "place": 7,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "race": "2008 Norcal",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:24.57",
+                "place": 4,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:16.17",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "CYC",
+                "time": "2:16.96",
+                "place": 2,
+                "size": 2
+            },
+            {
+                "team": "Washington",
+                "time": "2:26.22",
+                "place": 5,
+                "size": 2
+            },
+            {
+                "team": "GCD",
+                "time": "2:22.63",
+                "place": 3,
+                "size": 2
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:29.36",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "MHS Dragon Riders",
+                "time": "2:48.06",
+                "place": 7,
+                "size": 1
+            }
+        ]
     }
 ]

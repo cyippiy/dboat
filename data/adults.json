@@ -557,5 +557,194 @@
                 "size": 2
             }
         ]
+    },
+    {
+        "race":"2007 Norcal",
+        "teams": [
+            {
+                "team": "Dragon Warriors",
+                "time": "2:08.99",
+                "place": 1,
+                "size": 4
+            },
+            {
+                "team": "Dieselfish",
+                "time": "2:13.78",
+                "place": 3,
+                "size": 3
+            },
+            {
+                "team": "Ripple Effect",
+                "time": "2:13.69",
+                "place": 4,
+                "size": 2
+            },
+            {
+                "team": "Dragon Max",
+                "time": "2:25.72",
+                "place": 7,
+                "size": 2
+            },
+            {
+                "team": "Lightwave",
+                "time": "2:24.62",
+                "place": 6,
+                "size": 2
+            },
+            {
+                "team": "Bay Area Dragons",
+                "time": "2:10.26",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "SFL Dragons",
+                "time": "2:16.03",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "Alameda Dragon Flyers",
+                "time": "2:30.02",
+                "place": 9,
+                "size": 1
+            },
+            {
+                "team": "SF Dragon Healers",
+                "time": "2:30.01",
+                "place": 8,
+                "size": 2
+            },
+            {
+                "team": "KP Dragons",
+                "time": "2:36.20",
+                "place": 10,
+                "size": 1
+            }
+        ]
+    },
+    {
+        "race":"2008 Regatta",
+        "teams": [
+            {
+                "team": "Dragon Warriors",
+                "time": "2:13.89",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "Dieselfish",
+                "time": "2:21.37",
+                "place": 4,
+                "size": 2
+            },
+            {
+                "team": "Ripple Effect",
+                "time": "2:17.90",
+                "place": 3,
+                "size": 2
+            },
+            {
+                "team": "Dragon Max",
+                "time": "2:19.79",
+                "place": 6,
+                "size": 2
+            },
+            {
+                "team": "Lightwave",
+                "time": "2:23.53",
+                "place": 8,
+                "size": 2
+            },
+            {
+                "team": "Bay Area Dragons",
+                "time": "2:12.96",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "SFL Dragons",
+                "time": "2:19.75",
+                "place": 5,
+                "size": 1
+            },
+            {
+                "team": "Alameda Dragon Flyers",
+                "time": "2:37.88",
+                "place": 9,
+                "size": 1
+            },
+            {
+                "team": "SF Dragon Healers",
+                "time": "2:21.59",
+                "place": 7,
+                "size": 3
+            }
+        ]
+    },
+    {
+        "race":"2008 Norcal",
+        "teams": [
+            {
+                "team": "Dragon Warriors",
+                "time": "2:12.38",
+                "place": 1,
+                "size": 4
+            },
+            {
+                "team": "Dieselfish",
+                "time": "2:20.35",
+                "place": 5,
+                "size": 2
+            },
+            {
+                "team": "Ripple Effect",
+                "time": "2:25.14",
+                "place": 4,
+                "size": 2
+            },
+            {
+                "team": "Dragon Max",
+                "time": "2:24.81",
+                "place": 3,
+                "size": 2
+            },
+            {
+                "team": "Lightwave",
+                "time": "2:22.82",
+                "place": 7,
+                "size": 2
+            },
+            {
+                "team": "Bay Area Dragons",
+                "time": "2:12.78",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "SFL Dragons",
+                "time": "2:23.29",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "Alameda Dragon Flyers",
+                "time": "2:41.14",
+                "place": 9,
+                "size": 1
+            },
+            {
+                "team": "SF Dragon Healers",
+                "time": "2:36.77",
+                "place": 8,
+                "size": 2
+            },
+            {
+                "team": "KP Dragons",
+                "time": "2:42.77",
+                "place": 10,
+                "size": 2
+            }
+        ]
     }
 ]
