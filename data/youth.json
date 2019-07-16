@@ -354,7 +354,7 @@
                 "team": "Washington",
                 "time": "2:29.00",
                 "place": 4,
-                "size": 2
+                "size": 1
             },
             {
                 "team": "Crystal Springs Upland",
@@ -379,6 +379,165 @@
                 "time": "2:32.85",
                 "place": 5,
                 "size": 1
+            }
+        ]
+    },
+    {
+        "race": "2006 Youth Race",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:25.98",
+                "place": 2,
+                "size": 4
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:25.71",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "CYC",
+                "time": "2:34.01",
+                "place": 4,
+                "size": 3
+            },
+            {
+                "team": "Washington",
+                "time": "2:36.42",
+                "place": 3,
+                "size": 3
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "2:43.25",
+                "place": 6,
+                "size": 1
+            },
+            {
+                "team": "GCD",
+                "time": "2:35.87",
+                "place": 5,
+                "size": 2
+            },
+            {
+                "team": "Lick Wilmerding",
+                "time": "2:59.03",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:41.65",
+                "place": 6,
+                "size": 2
+            },
+            {
+                "team": "MHS Dragon Riders",
+                "time": "3:11.12",
+                "place": 8,
+                "size": 2
+            }
+        ]
+    },
+    {
+        "race": "2006 Norcal",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:16.68",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:15.45",
+                "place": 1,
+                "size": 4
+            },
+            {
+                "team": "CYC",
+                "time": "2:23.53",
+                "place": 3,
+                "size": 2
+            },
+            {
+                "team": "Washington",
+                "time": "2:38.71",
+                "place": 5,
+                "size": 2
+            },
+            {
+                "team": "Crystal Springs Upland",
+                "time": "3:04.39",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "GCD",
+                "time": "2:26.00",
+                "place": 4,
+                "size": 2
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:46.63",
+                "place": 6,
+                "size": 2
+            }
+        ]
+    },
+    {
+        "race": "2007 Youth Race",
+        "teams": [
+            {
+                "team": "Lowell",
+                "time": "2:26.88",
+                "place": 2,
+                "size": 3
+            },
+            {
+                "team": "Lincoln",
+                "time": "2:22.58",
+                "place": 1,
+                "size": 3
+            },
+            {
+                "team": "CYC",
+                "time": "2:29.46",
+                "place": 3,
+                "size": 2
+            },
+            {
+                "team": "Washington",
+                "time": "2:50.16",
+                "place": 6,
+                "size": 4
+            },
+            {
+                "team": "GCD",
+                "time": "2:30.54",
+                "place": 4,
+                "size": 3
+            },
+            {
+                "team": "Mountain View",
+                "time": "2:49.30",
+                "place": 5,
+                "size": 2
+            },
+            {
+                "team": "Thurgood Marshall",
+                "time": "2:56.26",
+                "place": 7,
+                "size": 1
+            },
+            {
+                "team": "MHS Dragon Riders",
+                "time": "3:06.06",
+                "place": 8,
+                "size": 2
             }
         ]
     }
